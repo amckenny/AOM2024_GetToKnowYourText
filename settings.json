@@ -1,0 +1,148 @@
+{
+    "CrossRef": {
+        "User-Agent": "Academic research; mailto:YourEmailHere"
+    },
+    "Custom Stopwords": ["research", "examine", "study", "construct"],
+    "Ollama Model": "nomic-embed-text",
+    "Scholars": [
+        {
+            "first_name": "Dean",
+            "last_name": "Shepherd",
+            "start_year": 1995
+        },
+        {
+            "first_name": "Jeff",
+            "last_name": "McMullen",
+            "start_year": 2000
+        },
+        {
+            "first_name": "Johan",
+            "last_name": "Wiklund",
+            "start_year": 1997
+        },
+        {
+            "first_name": "Peter",
+            "last_name": "Klein",
+            "start_year": 1994
+        },
+        {
+            "first_name": "Yong",
+            "last_name": "Li",
+            "start_year": 2008
+        },
+        {
+            "first_name": "David",
+            "last_name": "Sirmon",
+            "start_year": 2003
+        },
+        {
+            "first_name": "Ray",
+            "last_name": "Bagby",
+            "start_year": 1985
+        }
+    ],
+    "ISSNs": {
+        "academy of management journal": ["0001-4273", "1948-0989"],
+        "academy of management review": ["0363-7425", "1930-3807"],
+        "academy of management annals": ["1941-6520", "1941-6067"],
+        "administrative science quarterly": ["0001-8392", "1930-3815"],
+        "american sociological review": ["0003-1224", "1939-8271"],
+        "organization science": ["1047-7039", "1526-5455"],
+        "industrial and corporate change": ["1464-3650","0960-6491"],
+        "journal of management": ["0149-2063", "1557-1211"],
+        "journal of business venturing": ["0883-9026"],
+        "journal of business venturing insights": ["2352-6734"],
+        "strategic entrepreneurship journal": ["1932-4391", "1932-443X"],
+        "entrepreneurship: theory and practice": ["1042-2587"],
+        "research policy": ["0048-7333", "1873-7625"],
+        "small business economics": ["1573-0913","0921-898X"],
+        "innovation": ["1447-9338", "2204-0226"],
+        "journal of small business management": ["0047-2778","1540-627X"],
+        "strategic management journal": ["0143-2095", "1097-0266"],
+        "strategic organization": ["1476-1270", "1741-315X"],
+        "strategy science": ["2333-2050", "2333-2077"],
+        "organization theory": ["2631-7877", "2631-7877"],
+        "journal of applied psychology": ["0021-9010", "1939-1854"],
+        "organization studies": ["0170-8406", "1741-3044"],
+        "journal of management studies": ["1467-6486", "0022-2380"]
+    },
+    "Journal Pub Sample": {
+        "journals": ["journal of business venturing","strategic entrepreneurship journal","entrepreneurship: theory and practice"],
+        "start_year": 2000
+    },
+    "Non-content Regexes": [
+        "[\\.,]*\\s*(A|a)ll rights reserved[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc]|Copyright)+\\s(\\d{4})?\\s*The Authors*\\. Strategic Management Journal published by (John )*Wiley (&|and) Sons(\\.|,|;)? (Ltd|LLC|Inc)\\.\\s*",
+        "\\s*(Copyright)?\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*(The )?Ac[ac]demy ([Oo]f )?Manage?ment( Journal| Review)?[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*Ac[ac]demy ([Oo]f )?Managemen[ti]( Journal| Review)?( \\d{4})?[\\.,]*",
+        "\\s*Copyright\\s*(©|\\([Cc]\\)|[Cc])\\s(\\d{4})?[\\.,]*",
+        "\\s*(Copyright|©|\\([Cc]\\)|[Cc])?\\s*(\\d{4})? (of |at )?the Academy ([Oo]f)?\\s*Management[\\.,]*",
+        "\\s*(Copyright|©|\\([Cc]\\)|[Cc])?\\s*(\\d{4})? (by )?-?Baylor University[\\.,]*",
+        "\\s*(Copyright|©|\\([Cc]\\)|[Cc])?\\s*(\\d{4})?\\s*(Copyright|©|\\([Cc]\\)|[Cc]) (of )?the Academy ([Oo]f)?\\s*Management[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*Academy ([Oo]f )?Management( Journal| Review)?[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?[\\.,]*\\s*(© |\\([Cc]\\)|[Cc] )?The Author\\(s\\) (\\d{4})?[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?[\\.,]*\\s*Sage Publications[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*Academy of International Business[,\\.]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?[\\.,]*\\s*Elsevier\\s*(Science)?\\s*(Inc)?[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*IWA Publishing[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*Universidad de Antioquia[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*Human Kinetics, Inc[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*Wiley Periodicals, Inc[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*(by )?[Tt]he Authors\\s*(\\d{4})?\\s*[\\.,]*",
+        "\\s*(Copyright)*\\s*(Copyrigh[ti]|©|\\([Cc]\\)|[Cc]|\\s)+(\\d{4})?\\s*(by )?(John )*Wiley (&|and) Sons(\\.|,|;)? (Ltd|LLC|Inc)[,\\.]*\\s*(\\d{4})?\\s*[\\.,]*",
+        "\\s*(Copyrigh[ti]|©|\\([Cc]\\)|[Cc]|\\s)+(\\d{4})?\\s*(by )?Strategic Management Society[,\\.]*\\s*(\\d{4})?\\s*[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*(by )?[Tt]he Author(\\(s\\))?\\s*(\\d{4})?\\s*[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*(by )?Cornell University\\s*(\\d{4})?\\s*[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*(by )?Johnson Graduate School(, Cornell University)?\\s*(\\d{4})?\\s*[\\.,]*",
+        "\\s*(Copyright:)?\\s*(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?[\\.,]*\\s*[Ii](NFORMS|nforms)[\\.,]*",
+        "\\s*(Copyright|©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?[\\.,]*\\s*(by )?(the )?Ame?rican P[is]ycholo[gs]ical Association\\s*(\\d{4})?\\s*[\\.,]*",
+        "(©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*Published by Elsevier Inc\\.",
+        "\\s*(COPYRIGHT|©|\\([Cc]\\)|[Cc]|Copyright)*\\s*(©|\\([Cc]\\)|[Cc])*\\s*(\\d{4})?\\s*(BLACKWELL|Blackwell) (PUBLISHING|Publishing), (INC|Inc).",
+        "\\d{1,2}/\\d{1,2}/\\d{2,4}",
+        "\\s*Copyright:\\s*(©|\\([Cc]\\)|[Cc])\\s*[\\.,]*",
+        "\\(\\d* ref\\)",
+        "\\(*PsycI(NFO|nfo) Database Record\\s*(\\(c\\)|©|\\([Cc]\\)|[Cc])\\s*(\\d{4})?\\s*APA\\)*[\\.,]*",
+        "\\s*Strategic Management Journal published by (John )*Wiley (&|and) Sons(\\.|,|;)? (Ltd|LLC|Inc)\\.( on behalf of Strategic Management Society)?[\\.,]*",
+        "\\s*(©|\\([Cc]\\)|[Cc]|Copyright)?\\s*(\\d{4})?[,\\.;]?\\s*(John )*Wiley (&|and) Sons(\\.|,|;)? (Ltd|LLC|Inc)[,\\.]*",
+        "\\s*Journal of International Business Studies \\(\\d{4}\\) \\d{2},.*$",
+        "\\s*JAI Press Inc\\.\\s*(All rights of reproduction in any form reserved\\.|0149-2063\\.)?",
+        "\\s*Southern Management Association[\\.,]*$",
+        "\\s*Academic Press[\\.,]*$",
+        "\\s*JAI Press Inc\\. ",
+        "\\s*(by )?Academic Press, Inc\\.?",
+        "\\s*Research [sS]ummary:",
+        "\\s*Research [aA]bstract:",
+        "\\s*Managerial [sS]ummary:",
+        "\\s*Managerial [aA]bstract:",
+        "\\s*Academy of International Business",
+        "\\s*Blackwell Publishing Ltd[,\\.]*",
+        "\\s*Personnel Psychology published by Wiley Periodicals,? LLC[,\\.]*",
+        "\\s*corrected publication",
+        "\\s*(January|February|March|April|May|June|July|August|September|October|November|December) \\d{4}",
+        "\\s*Science Inc\\.",
+        "\\s*Wiley Blackwell",
+        "\\s*by Blackwell Publishing, Inc\\.",
+        "\\s*(©|\\([Cc]\\)|[Cc])?\\s*(\\d{4})?\\s*\\s*Wiley Periodicals[,\\.;]? (Inc|Ltd|LLC)\\.",
+        "\\s*The Ohio State University",
+        "\\s*No claim to original US government works",
+        "\\s*Copyright at the Academy of Management",
+        "\\s*Copyright:",
+        "\\sCopyright copy;",
+        "R(esources|ESOURCES): This article has earned an Open Data badge.*$",
+        "(©|\\([Cc]\\)|[Cc]) Taking a self-regulatory",
+        "\\s*Palgrave Macmillan( Ltd)?[\\.,]?",
+        "(©|\\([Cc]\\)|[Cc]) (\\d{4})[\\.,]*",
+        "r Academy of Management (Journal|Review)",
+        "^The Academy of Management",
+        "\\s*Kelley School of Business, Indiana University. Published by Elsevier Inc\\.?",
+        "\\s*Inst\\.for Operations Res\\.and the Management Sciences",
+        "Contents may not be copied, emailed, posted to a listserv, or otherwise transmitted without the copyright holder's express written permission\\. Users may print, download, or email articles for individual use only\\.",
+        "\\.\\s*Copyright( \\d{4})?\\.*$"
+    ],
+    "Test Abstracts": [
+        ["Entrepreneurship", "A field study of 29 resource-constrained firms that varied dramatically in their responses to similar objective environments is used to examine the process by which entrepreneurs in resource-poor environments were able to render unique services by recombining elements at hand for new purposes that challenged institutional definitions and limits. We found that Lévi-Strauss's concept of bricolage—making do with what is at hand—explained many of the behaviors we observed in small firms that were able to create something from nothing by exploiting physical, social, or institutional inputs that other firms rejected or ignored. We demonstrate the socially constructed nature of resource environments and the role of bricolage in this construction. Using our field data and the existing literature on bricolage, we advance a formal definition of entrepreneurial bricolage and induce the beginnings of a process model of bricolage and firm growth. Central to our contribution is the notion that companies engaging in bricolage refuse to enact the limitations imposed by dominant definitions of resource environments, suggesting that, for understanding entrepreneurial behavior, a constructivist approach to resource environments is more fruitful than objectivist views."],
+        ["Applied Psychology", "Third parties have increasingly become the focus of research on mistreatment in organizations. Much of that work is grounded in deonance theory, which argues that third parties should react to the perpetrators of mistreatment with anger. Deonance theory is less explicit as to how third parties should react to the victims of mistreatment, though empirical work has pointed to empathy as one potential reaction. Deonance theory is less capable of explaining recent findings suggesting that third parties may react to mistreatment events with schadenfreude. The purpose of our study was to conduct a meta-analytic test of an integrative model specifying the relationships between third-party perceptions of mistreatment and reactions to perpetrators and victims. That model predicted that third-party perceptions of mistreatment would be associated with emotional reactions (anger toward the perpetrator, empathy toward the victim, schadenfreude from the event), cognitive reactions (evaluations of the perpetrator and victim), and behavioral reactions (antisocial and prosocial behaviors toward the perpetrator and victim). Our model testing provides the first quantitative synthesis of the third-party mistreatment literature while surfacing counterintuitive findings that would not be anticipated from deonance theory’s arguments. We discuss the theoretical and practical implications of our work while providing guidance for future research."],
+        ["Astrophysics", "Investigating Protostellar Accretion is a Cycle 1 JWST program using the NIRSpec+MIRI integral field units to obtain 2.9–28 μm spectral cubes of five young protostars with luminosities of 0.2–10,000 L⊙ in their primary accretion phase. This paper introduces the NIRSpec 2.9–5.3 μm data of the inner 840–9000 au with spatial resolutions from 28 to 300 au. The spectra show rising continuum emission; deep ice absorption; emission from H2, H i, and [Fe ii]; and the CO fundamental series in emission and absorption. Maps of the continuum emission show scattered light cavities for all five protostars. In the cavities, collimated jets are detected in [Fe ii] for the four <320 L⊙ protostars, two of which are additionally traced in Brα. Knots of [Fe ii] emission are detected toward the most luminous protostar, and knots of [Fe ii] emission with dynamical times of <30 yr are found in the jets of the others. While only one jet is traced in H2, knots of H2 and CO are detected in the jets of four protostars. H2 is seen extending through the cavities, showing that they are filled by warm molecular gas. Bright H2 emission is seen along the walls of a single cavity, while in three cavities narrow shells of H2 emission are found, one of which has an [Fe ii] knot at its apex. These data show cavities containing collimated jets traced in atomic/ionic gas surrounded by warm molecular gas in a wide-angle wind and/or gas accelerated by bow shocks in the jets."]
+    ],
+    "Test Query": "What is the role of institutions in entrepreneurship?"
+}

@@ -1,0 +1,16 @@
+beautifulsoup4
+chromadb
+gensim
+langchain
+langchain-chroma
+langchain-community
+langchain-ollama
+lxml
+nltk
+ollama
+pandas
+plotly
+requests
+scattertext
+scikit-learn
+spacy
