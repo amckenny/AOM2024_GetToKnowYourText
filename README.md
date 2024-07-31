@@ -1,6 +1,7 @@
 # AOM 2024: Get To Know Your [Text]
 
 [![Powerpoint Presentation Slides](https://img.shields.io/badge/Powerpoint%20Slides-Download-blue)](./docs/AOM2024_GetToKnowYourText.pptx)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-View%20Online-blue)](https://amckenny.github.io/AOM2024_GetToKnowYourText/)
 
 This repository shares the materials associated with my presentation "Get To Know Your [Text]" at the 2024 Academy of Management Conference. The presentation is part of the Professional Development Workshop (PDW) titled *Framing Novelty: New perspectives on language and communication in entrepreneurship and innovation research*.
 
